@@ -2,4 +2,20 @@ body {
     background-image:url("images/space Golf.png");
     color:azure;
     align-items: center;
+    background-size: cover;
+}
+#navbar {
+    display: flex;
+    align-items: baseline;
+    padding: 50px;
+    justify-content: space-between;
+    border: 1px whitesmoke solid ;
+}
+.button {
+    background-color: brown;
+}
+#spbutton {
+    width: 100px;
+    height:50px;
+    background-color:brown;
 }

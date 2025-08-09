@@ -19,3 +19,15 @@ body {
     height:50px;
     background-color:brown;
 }
+#overview {
+    display: flex;
+}
+#AR{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-image: url("images/spaceImage.jpeg");
+    align-items: baseline;
+    padding: 20px;
+    border: ;
+}

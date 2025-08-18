@@ -2,6 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <script src="script.js"></script>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head> 
   
@@ -12,7 +13,7 @@
     <button class="button"> Dining menu </button>
     <button class="button"> Book an event </button>
     <button class="button"> contacts </button>
-    <button id="spbutton"> Play Now! </button>
+    <button id="spbutton" onclick="Alert()"> Play Now! </button>
     <h2></h2>
   </div>  
   <h1>Overview</h1>
@@ -28,7 +29,35 @@
   </div>
     <!-- needs diffrent images for each key point! -->
   </div>
-    <script src="script.js"></script>
+  <div id="prices">
+    <h2>The prices!</h2>
+
+    <table id="Prices">
+      
+      <tr>
+        <th><h3>9 holes (per person)</h3></th>
+      </tr>
+      <tr>
+        <td><h3>Adults</h3></td>
+        <td> <h3>$14.99</h3> </td>
+      </tr>
+      <tr>
+        <td><h3>Juniors</h3></td>
+        <td><h3>$9.99</h3></td>
+      </tr>
+      <tr>
+        <th><h3>ALL YOU CAN PUTT! (putt all day!)</h3></th>
+      </tr>
+      <tr>
+        <td><h3>Adults</h3></td>
+        <td> <h3>$24.99</h3> </td>
+      </tr>
+      <tr>
+        <td><h3>Juniors</h3></td>
+        <td> <h3>$14.99</h3> </td>
+      </tr>
+    </table>
+  </div>
 </body>
 
 </html>

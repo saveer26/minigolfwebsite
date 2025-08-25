@@ -91,3 +91,16 @@ h1{
 #img {
     width:75%;
 }
+#gallery{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+#gallerybuttons {
+    display: flex;
+    flex-direction: row;
+}
+#gallery button {
+    width: 50px;
+    height: 50px;
+}

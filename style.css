@@ -46,8 +46,6 @@ body {
     height: 200px;
     background-size:cover;
     padding:20px;
-    border: white solid 5px;
-    box-shadow:1px 1px 3px 10px black;
 }
 h1{
     font-family: "BoldSpaceFont";
@@ -55,13 +53,28 @@ h1{
 #overview h2{
     font-family: "spaceFont";
 }
+#overview p{
+    opacity: 1;
+}
 #AR{
+    border: white solid 5px;
+    box-shadow:1px 1px 3px 10px black;
+    display:flex;
+    flex-direction: column;
     background-image: url("images/AR Golf.png");
 }
 #Gamemodes {
+    border: white solid 5px;
+    box-shadow:1px 1px 3px 10px black;
+    display:flex;
+    flex-direction: column;
     background-image: url("images/Golf Dining Area.png");
 }
 #courses {
+    border: white solid 5px;
+    box-shadow:1px 1px 3px 10px black;
+    display:flex;
+    flex-direction: column;
     background-image: url("images/Golf Course.png");
 }
 #prices {
@@ -90,6 +103,7 @@ h1{
 }
 #img {
     width:75%;
+    border:10px black solid;
 }
 #gallery{
     display: flex;
@@ -103,4 +117,8 @@ h1{
 #gallery button {
     width: 50px;
     height: 50px;
+    background: #1c607a;
+background: linear-gradient(90deg,rgba(28, 96, 122, 1) 0%, rgba(90, 163, 115, 1) 58%, rgba(104, 225, 252, 1) 86%);
+border-radius:20px;
+    color:aliceblue
 }

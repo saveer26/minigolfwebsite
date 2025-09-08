@@ -2,7 +2,7 @@ function Alert(){
     alert("This isn't a real website. This is a demo. How did you even get on here?")
 }
 
-let gallery = ["images/gallery/galleryImage1.png","images/gallery/galleryImage2.png","images/gallery/galleryImage3.png"]
+let gallery = ["images/gallery/galleryImage1.png","images/gallery/galleryImage2.png","images/gallery/galleryImage3.png","images/gallery/galleryImage4.png"]
 let current = 1
 let image = document.getElementById("img")
 image.src = gallery[current]
